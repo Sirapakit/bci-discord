@@ -17,6 +17,23 @@ The purpose of this bot is to
 Install the project with node and npm 
 
 ```bash
- npm install discord.js @discordjs/rest
+ npm install discord.js 
  npm i dotenv
+ npm i node mon
+ npm i install eslint -g
 ```
+
+### To install eslint on save
+npx eslint --init
+Then, go to 
+1. file --> preference --> setting
+2. type onsave 
+3. click on setting
+4. make sure at the end of the scripts, it has 
+    "editor.codeActionsOnSave": {
+     "sorce.fixAll.eslint" : true
+    },
+    "eslint.validate": ["javascript"]
+5. and in the setting of eslint, make sure it has
+    "editor.formatOnSave": true,
+    "eslint.codeActionsOnSave.rules": true
