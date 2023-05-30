@@ -4,7 +4,7 @@ for BCI Lab <br >
 The purpose of this bot is to 
 <br>1. welcome members ✅
 <br>2. list member in voice channel --> log each member that join the channel in the console ✅
-<br>3. get the incoming event then notify all members ❌
+<br>3. get the incoming event then notify all members  ✅
 
 
 ## Documentation
